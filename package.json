@@ -1,0 +1,11 @@
+{
+  "name": "api-devhouse",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/leandrolimadeveloper/API-DevHouse.git",
+  "author": "leandrolimadeveloper <leandroslimasr@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
