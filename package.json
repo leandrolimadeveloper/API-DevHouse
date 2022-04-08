@@ -5,7 +5,14 @@
   "repository": "https://github.com/leandrolimadeveloper/API-DevHouse.git",
   "author": "leandrolimadeveloper <leandroslimasr@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  },
   "dependencies": {
     "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "sucrase": "^3.21.0"
   }
 }
