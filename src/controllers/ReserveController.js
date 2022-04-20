@@ -53,8 +53,6 @@ class ReserveController {
         await reserve.populate('user house')
 
         res.json(reserve)
-
-
     }
 }
 
