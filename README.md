@@ -19,7 +19,9 @@ Trata-se de uma API para aplicação de alocação de imóvel, onde é possível
 ![img2](https://user-images.githubusercontent.com/76854209/164293513-de7ccc0a-95cd-46a7-b51f-805809a9745b.jpg)
 ![img3](https://user-images.githubusercontent.com/76854209/164293514-c428345c-cd4f-40f5-b9ff-415647228087.jpg)
 
-## Experiência adquirida:
+<hr>
+
+## Experiência adquirida
 - API
 - MongoDB
 - Mongoose
