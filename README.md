@@ -13,7 +13,7 @@
 ## Sobre
 API REST desenvolvida no curso 'Curso completo de APIs com Nodejs, Express + MongoDB, SQL', do instrutor Matheus Fraga, na Udemy.
 
-Trata-se de uma API para aplicação de alocação de imóvel, onde é possível iniciar sessão e, com o usuário logado, cadastrar, atualizar, deletar e listar os imóveis cadastrados. 
+Trata-se de uma API para aplicação de alocação de imóvel, onde é possível iniciar sessão e, com o usuário logado, cadastrar, atualizar, deletar e listar os imóveis cadastrados. Também é possível reservar e cancelar o aluguel de um imóvel. 
 
 ![img1](https://user-images.githubusercontent.com/76854209/164293507-228e150d-39df-47e6-8cc5-dd56a82a4452.jpg)
 ![img2](https://user-images.githubusercontent.com/76854209/164293513-de7ccc0a-95cd-46a7-b51f-805809a9745b.jpg)
@@ -76,7 +76,7 @@ Endpoint para logar/cadastrar usuário. Caso o email já esteja cadastrado, ele 
 }
 ```
 
-#### Parametros
+#### Parâmetros
 Nenhum
 
 #### Respostas 
@@ -88,7 +88,7 @@ Rota para cadastrar um novo imóvel.
 
 A imagem cadastrada é enviada através do req.file (filename) e o ID do usuário através do req.headers.
 
-#### Parametros
+#### Parâmetros
 Nenhum
 
 #### Respostas 
@@ -101,9 +101,9 @@ POST /houses
 ```
 
 ### Houses: GET /houses
-Retorna a lista dos imóveis com status 'true' cadastrados no banco de dados.
+Retorna a lista dos imóveis com status 'true' (disponível) cadastrados no banco de dados.
 
-#### Parametros
+#### Parâmetros
 true
 
 #### Respostas 
